@@ -4,21 +4,24 @@
   }
 html {
   background-color: #333232;
-
-  
-}
-
-header {
-  background-color: #f7b2ad;
-  background-position: left top;
-  background-size: cover;
-  font-size: 30px;
   font-family: 'montserrat';
   color: black;
+  
+}
+h1 {
+  background-color: #f7b2ad;
+  font-size: 30px;
   text-align: left 30px;
-  padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px
+  padding: 20px 30px;
+  
+  
+}
+h2 {
+  background-color: #b7b7b7;
+  background-size: cover;
+  font-size: 15px;
+  text-align: left 30px;
+  padding: 20px;
 }
 
 l1 {
@@ -33,12 +36,17 @@ button {
   background-blend-mode: hue;
   font-size: 30px;
   margin-right: 30px;
-  font-family: 'montserrat';
   border-radius: 30px; 
   border-width: 5px;
   padding: 5px 10px;
 }
-
+nav, a {
+  text-decoration: none;
+  color: black;
+  background-color: azure;
+  border-width: 5px;
+  border-color: black;
+}
 
 
 
@@ -47,7 +55,7 @@ button {
 --melon: #f7b2adff;
 --silver-pink: #ceb7b3ff;
 --gray-x-11-gray: #b7b7b7ff;
---cambridge-blue: #9abca7ff;
+--cambridge-blue: #ff;
 
 /* CSS HSL */
 --jet: hsla(0, 1%, 20%, 1);
