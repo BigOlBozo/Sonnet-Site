@@ -28,10 +28,15 @@ l1 {
   background-color: #9abca7;
   padding: 50px 20px 50px 50px;
   font-size: 20px;
-  border-radius: 20%;
-  margin: 0px 467px;
+  margin: auto; 
 }
-
+p {
+  width: 50%;
+  margin: 0% 467px;
+  margin-top: 100px;
+ 
+  
+ }  
 button {
   background-blend-mode: hue;
   font-size: 30px;
@@ -43,12 +48,24 @@ button {
 nav, a {
   text-decoration: none;
   color: black;
-  background-color: azure;
+  background-color: whitesmoke;
   border-width: 5px;
   border-color: black;
 }
 
-
+table,th, tr {
+  border: 0px solid black;
+  border-collapse: collapse;
+  padding: 5px 20px;
+  margin: 3px 10px;
+  background-color: aliceblue;
+}
+th:hover{
+  background-color: rgba(101, 181, 182, 0.296);
+}
+th:hover > a {
+  background-color: rgba(51, 50, 50, 0);
+}
 
 /* CSS HEX */
 --jet: #333232ff;
